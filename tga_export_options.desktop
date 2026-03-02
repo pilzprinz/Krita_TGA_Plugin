@@ -1,0 +1,7 @@
+[Desktop Entry]
+Type=Service
+ServiceTypes=Krita/PythonPlugin
+X-KDE-Library=tga_export_options
+X-Python-2-Compatible=false
+Name=TGA Export Options
+Comment=Shows a TGA options dialog (origin, depth, RLE, footer, comment) after saving/exporting a .tga file
