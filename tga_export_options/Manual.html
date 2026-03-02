@@ -1,14 +1,13 @@
-<!DOCTYPE html>
-<html>
-<head><meta charset="utf-8"><title>TGA Origin Exporter</title></head>
-<body>
-<h1>TGA Origin Exporter</h1>
-<p>Export TGA images with Bottom-Left or Top-Left origin.</p>
-<h2>Usage</h2>
-<ol>
-<li>Open an image in Krita</li>
-<li>Go to <b>Tools &gt; Scripts &gt; Export TGA with Origin...</b></li>
-<li>Choose origin, click Export, pick save location</li>
-</ol>
-</body>
-</html>
+TGA Export Options — a Krita plugin that automatically shows an options dialog every time you save or export a .tga file.
+
+Features:
+• Origin: Bottom-Left (standard) or Top-Left (OpenGL / game engines)
+• Bit Depth: keep, force 32-bit RGBA, or strip alpha to 24-bit RGB
+• RLE Compression: toggle on/off
+• TGA 2.0 Footer (TRUEVISION-XFILE signature)
+• Comment / Image ID (up to 255 ASCII chars)
+• All settings are remembered between Krita sessions
+
+The plugin hooks into Krita's imageSaved signal — no menus to navigate. Just save a .tga file and the dialog pops up automatically.
+
+Installation: copy 3 files into your pykrita/ folder, enable in Plugin Manager, restart Krita.
