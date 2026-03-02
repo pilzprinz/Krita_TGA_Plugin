@@ -36,6 +36,10 @@ The plugin **does not** add any menu items — it works fully automatically, onl
 - **Pixel depths:** 8, 16, 24, 32 bpp
 - **All origin positions:** Bottom-Left, Bottom-Right, Top-Left, Top-Right
 
+<img width="413" height="546" alt="image" src="https://github.com/user-attachments/assets/eeb7e1ba-733d-4b0e-8c16-c05885ada399" />
+
+
+
 ## Installation
 
 ### Step 1: Find the pykrita folder
