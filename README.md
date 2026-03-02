@@ -4,6 +4,10 @@ A Krita plugin that gives you full control over TGA export settings. It automati
 
 ![Krita](https://img.shields.io/badge/Krita-5.x-blue) ![Python](https://img.shields.io/badge/Python-3.6%2B-green) ![License](https://img.shields.io/badge/License-Free-brightgreen)
 
+## The Story
+
+I was creating a 4K texture mod for KOTOR 2, but the textures appeared upside down in the game. I discovered that the game uses a bottom-left origin, while Krita always exports with a top-left origin. I got tired of exporting to TGA, then opening the files in GIMP and exporting them again with “Bottom-left origin” checked. So I made this plugin to save artists a lot of time and effort. I think the Krita developers should add this export option to the main code by default.
+
 ## The Problem
 
 Krita's built-in TGA export has limited options — you can't control the pixel origin, toggle RLE compression, change bit depth, or add a TGA 2.0 footer. This plugin fills those gaps.
