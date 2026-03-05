@@ -123,7 +123,3 @@ Launch Krita from the command line to see plugin messages:
 [TGA Export Options] TGA 2.0 footer added
 [TGA Export Options] Done: TGA: origin=Bottom-Left, depth=keep, RLE, TGA2.0
 ```
-
-## License
-
-Free to use, modify, and distribute.
